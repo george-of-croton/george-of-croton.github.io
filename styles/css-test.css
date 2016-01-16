@@ -89,10 +89,10 @@ header h1 {
 
 p {
   text-align: center;
-  margin: 20px 250px;
+  margin: 20px 250px 20px 250px;
   width: 30%;
   text-align: justify;
-  
+  font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -135,4 +135,6 @@ div div {
 
   footer {
     clear: both;
+    background: #FFCCFF;
+    color: #FFFFFF;
   }
