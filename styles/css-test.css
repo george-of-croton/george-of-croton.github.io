@@ -90,8 +90,9 @@ header h1 {
 p {
   text-align: center;
   margin: 20px 250px;
+  width: 30%;
   text-align: justify;
-  float: left;
+  
 
 
 }
