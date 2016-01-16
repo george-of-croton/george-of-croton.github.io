@@ -24,8 +24,8 @@ div nav {
   }
 
   div nav li {
-
-    padding: 0 0 0 10px;
+    background: #FFFFFF;
+    padding: 10px 10px 30px 10px;
     width:100px;
   }
 
@@ -45,6 +45,8 @@ h2 {
 }
 
 h3 {
+  background: #FFFFFF;
+  padding: 10px 10px;
   color: #6699FF;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -57,6 +59,19 @@ header h1 {
   text-align: center;
   
 
+}
+
+img {
+
+  
+  
+}
+
+.center {
+
+  margin: auto;
+  width: 17.5%;
+  border: 30px solid #FFFFFF;
 }
 
 
