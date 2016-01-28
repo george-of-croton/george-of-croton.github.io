@@ -1,0 +1,47 @@
+
+.mainbutton {
+	margin-top: 20%;
+	padding 17px;
+	display: block;
+	text-align: center;
+
+}	
+.mainlogo {
+	color: #ffffff;
+	background-color: #F05E8A;
+	display: inline-block;
+	padding: 12px 20px 12px 20px;
+	font-size: 5.0rem;	
+	text-align: center;
+
+	
+}
+.four.columns img {
+
+	margin-left: 22%;
+}
+@media (max-width: 500px) {
+	.four.columns.mid img {
+		display: block;
+		margin-left: 33%;
+	}
+	.four.columns img {
+		display: none;
+	}
+	.mainbutton {
+		margin-top: 3%;
+	}
+
+}
+.row {
+	margin-top: 40px;
+	border-bottom: solid #F685A7;
+
+}
+.rowmain {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.row.images {
+	border-bottom: none;
+}
