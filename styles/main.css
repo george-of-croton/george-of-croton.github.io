@@ -1,20 +1,26 @@
 
 .mainbutton {
 	margin-top: 20%;
-	padding 17px;
+	padding: 17px;
 	display: block;
-	text-align: center;
-
-}	
+}
+.mainbutton ul li {
+	display: none;
+}
+.mainbutton:hover ul li {
+	display: block;
+}
+.mainbuton ul li:hover {
+}
+.mainbutton:hover {
+	color: #F05E8A;
+}
 .mainlogo {
 	color: #ffffff;
 	background-color: #F05E8A;
 	display: inline-block;
 	padding: 12px 20px 12px 20px;
-	font-size: 5.0rem;	
-	text-align: center;
-
-	
+	font-size: 5.0rem;		
 }
 .four.columns img {
 
@@ -31,7 +37,16 @@
 	.mainbutton {
 		margin-top: 3%;
 	}
+	.row.images {
+		display: none;
 
+	}
+
+}
+
+.four.columns.para p {
+	border-left: solid #F05E8A;
+	border-right: solid #F05E8A;
 }
 .row {
 	margin-top: 40px;
@@ -39,9 +54,31 @@
 
 }
 .rowmain {
-	text-align: center;
 	margin-bottom: 10%;
+	text-align: center;
+	margin-right: 7%
 }
+
 .row.images {
 	border-bottom: none;
+}
+.row.social {
+	border-top: solid #F685A7;
+}
+.row.social img {
+	margin-top: 10%;
+}
+.row.blog.images img {
+	height: 600px;
+}
+	
+.blogimage	{
+	position: relative;
+}
+.blog h2 {
+   position: absolute; 
+   top: 200px; 
+   left: 30; 
+   width: 100%; 
+   height: 250px;
 }
