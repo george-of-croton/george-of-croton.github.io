@@ -1,91 +1,114 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>GDS</title>
-		<link href="../styles/newstylescss.css" rel="stylesheet"/>
-	</head>
-	<header>
-		<div class="logo">
-			<h1>G D S</h1>
-		</div>
-	</header>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-	
-		
-				
-			<div class= "button"><li><a href="../index.html">HOME</a></li></div>
-			<div class= "dropdown"><li><a href="c1-reflection-blog.html">BLOG</a>
-				<div class="dropdown-content">
-					<ul>
-						<h3> week 1</h3>
-					<li><a href="c1-reflection-blog.html">Fireside reflection</a></li>
-					<li>Time and habits</li>
-						<h3>Week 2</h3>
-					<li><a href="t2-html-css-dom-p1.html">Tech Blog 1</a></li>
-					<li>Tech Blog 2</li>
-				</ul>
-				</div></div></li>
-			<div class= "button"><li><a href="#">ABOUT</a></li></div>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-		<div class= "blogbackground">
-			<div class="column">
-			<h1>Week 2: Grid Based Design, Responsive Webpages, and Semantic Structure:</h1>
-			 <div class="topbold"><h2>A Brief Overview of Some Webdesign Basics</h2></div>
-	<h3>GRID BASED DESIGN</h3>
-	<p>When you look at a webpage most of the time you will find that it can be broken up into a grid. The grid is a useful of way of organising and displaying content on a page as well as being versatile and easily interchangeable.</p>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<p>We design the grid on the web to take advantage of our users natural left to write reading patterns. For example we may have an image with a headline in larger text that provides information about what the smaller text in the paragraph to left is about.</p>
-	<h3>REPSONSIVE DESIGN</h3>
-	<p>Designing for the web in 2016 means you cannot design specifically for a computer screen, there's a good chance a lot of your users will be viewing your page on a huge variety of mobile devices like phones and tablets. This means we have to implement scaleable, repsonsive design. CSS provides a variety properties and variables that allow to design for multiple platforms. For example, Defining content size by percentages rather pixels, and usiing media queries to detect your users screen size and present the content accordingly.</p>
-	<h3>SEMATIC STRUCTURE</h3>
-	<p>In HTML semantic Structure is the way that web designers give context to the content that will be present within a given element in their code. In HTML you have tags such as "p" for paragraph, "li" for list "h" for header and the list goes on. So for example I'm writing an article about semantic structure. I would put the title of my article in an "h1" tag and the body text in a "p" tag. These tags provide context for your content so the browser can present them correctly.</p>
-	<h3>SUMMARY</h3>
-	<p>It seems one of the keys to great webdesign is really paying attention to details that make sure every user has a great experience on your site. By creating well structured and coherently organised pages we can give our the content the best chance to make a pleasing impression on our users and keep them coming back!</p>
-			
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
+</head>
+<body>
 
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class ="rowmain">
+        <div class="four columns">
+          <div class= "mainbutton"><h2>blog</h2>
+            <ul>
+              <div class="six columns">
+                <li>Blog 1</li>
+                <li>blog 2</li>
+                <li>blog 3</li>
+              </div>
+              <div class="six columns">
+                <li>blog 4</li>
+                <li>blog 5</li>
+                <li>blgo 6</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="four columns">
+          <h1 class="mainlogo"> GDS </h1>
+        </div>
+        <div class="four columns">
+          <div class= "mainbutton"><h2>about</h2>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row blog">
+      
+      <div class ="four columns">
+        <h1>Week 2: Grid Based Design, Responsive Webpages, and Semantic Structure:</h1>
+        <h5>A Brief Overview of Some Webdesign Basics</h5>
+      </div>
+      <div class ="six columns">
+        <img src="../images/heat.jpeg">
+        <h3>GRID BASED DESIGN</h3>
+          <p>
+            When you look at a webpage most of the time you will find that it can be broken up into a grid. The grid is a useful of way of organising and displaying content on a page as well as being versatile and easily interchangeable.
+          </p>
+          <p>
+            We design the grid on the web to take advantage of our users natural left to right reading patterns. For example we may have an image with a headline in larger text that provides information about what the smaller text in the paragraph to left is about.</p>
+          <h3>REPSONSIVE DESIGN</h3>
+          <p>
+            Designing for the web in 2016 means you cannot design specifically for a computer screen, there's a good chance your users will be viewing your page on a huge variety of mobile devices like phones and tablets. This means we have to implement scaleable, repsonsive design. CSS provides a variety of properties and variables that allow us to design for multiple platforms. For example, Defining content size by percentages rather pixels, and using media queries to detect your users screen size and present the content accordingly.
+          </p>
+          <h3>SEMATIC STRUCTURE</h3>
+          <p>
+            In HTML semantic Structure is the way that web designers give context to the content that will be present within a given element in their code. In HTML you have tags such as "p" for paragraph, "li" for list "h" for header and the list goes on. So for example I'm writing an article about semantic structure. I would put the title of my article in an "h1" tag and the body text in a "p" tag. These tags provide context for your content so the browser can present them correctly.</p>
+          <h3>SUMMARY</h3>
+          <p>
+            It seems one of the keys to great webdesign is really paying attention to details that make sure every user has a great experience on your site. By creating well structured and coherently organised pages we can give our the content the best chance to make a pleasing impression on our users and keep them coming back!
+          </p>
+      </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
 
+    <div class="row social">
+      <div class="three columns"><h1>SOCIAL MEDIA</h1></div>
+      <div class ="three columns"><img src="../images/twiticon.png"></div>
+      <div class ="three columns mid"><img src="../images/faceicon.png"></div>
+      <div class ="three columns"><img src="../images/instaicon.png"></div>
+    </div>
 
-
-</div>
 
         
-			
           
 
 
-			
-			
-			
+      </blockquote>
+    </div>
 
-			
+  </div>
 
-			</div>
-
-		
-		
-
-		
-		
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-
-
-
 </html>

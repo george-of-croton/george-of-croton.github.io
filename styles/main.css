@@ -1,19 +1,26 @@
 
 .mainbutton {
+	background: #ffffff;
 	margin-top: 20%;
 	padding: 17px;
 	display: block;
 }
+.mainbutton a {
+	text-decoration: none;
+	color: #000000;
+}
 .mainbutton ul li {
 	display: none;
+	text-decoration: inherit;
 }
 .mainbutton:hover ul li {
 	display: block;
 }
-.mainbuton ul li:hover {
-}
-.mainbutton:hover {
+.mainbutton:hover h2{
 	color: #F05E8A;
+	border-bottom: solid #F05E8A;
+	padding-bottom: 10px;
+	font-size: 5.0rem;
 }
 .mainlogo {
 	color: #ffffff;
@@ -21,6 +28,14 @@
 	display: inline-block;
 	padding: 12px 20px 12px 20px;
 	font-size: 5.0rem;		
+}
+.mainlogo:hover {
+	color: #ffffff;
+	background-color: #F05E8A;
+	display: inline-block;
+	padding: 18px 30px 18px 30px;
+	font-size: 6.0rem;
+
 }
 .four.columns img {
 
@@ -56,11 +71,24 @@
 .rowmain {
 	margin-bottom: 10%;
 	text-align: center;
-	margin-right: 7%
 }
+header {
+	width: 100%;
+	background-color: #F0F0F0;
+	margin: 0 auto;
+	position: fixed;
+	padding: 0;
+}
+
 
 .row.images {
 	border-bottom: none;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.row.images.mood img {
+	width: 400px;
 }
 .row.social {
 	border-top: solid #F685A7;
@@ -68,17 +96,29 @@
 .row.social img {
 	margin-top: 10%;
 }
-.row.blog.images img {
-	height: 600px;
+.row.blog {
+	margin-bottom: 18%;
+	border-bottom: solid #F05E8A;
 }
-	
-.blogimage	{
-	position: relative;
+.row.blog h1 {
+	margin-left: 25%;
+	border-bottom: solid #F05E8A;
 }
-.blog h2 {
-   position: absolute; 
-   top: 200px; 
-   left: 30; 
-   width: 100%; 
-   height: 250px;
+.row.blog h5 {
+	margin-left: 25%;
+	margin-bottom: 50px;
+	border-bottom: solid #F05E8A;
+}
+.row.blog h1:hover {
+	color: #F05E8A;
+}
+.row.blog img {
+	height: 350px;
+	margin: 0 auto;
+	border: solid #F685A7;
+	border-width: 10px;
+	padding: 10px;
+}
+.goalslist ul {
+	list-style: square;
 }

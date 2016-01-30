@@ -1,112 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>GDS</title>
-		<link href="../styles/newstylescss.css" rel="stylesheet"/>
-		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	</head>
-	<header>
-		<div class="logo">
-			<h1>G D S</h1>
-		
-	</header>
-	<body>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-	
-		
-				
-			<div class= "button"><li><a href="../index.html">HOME</a></li></div>
-			<div class= "dropdown"><li><a href="c1-reflection-blog.html">BLOG</a>
-				<div class="dropdown-content">
-					<ul>
-						<h3> week 1</h3>
-					<li><a href="c1-reflection-blog.html">Fireside reflection</a></li>
-					<li>Time and habits</li>
-					<h3>Week 2</h3>
-					<li>Tech Blog 1</li>
-					<li><a href="t2-html-css-dom-p2.html">Tech Blog 2</a></li>
-				</ul>
-				</div></li></div>
-			<div class= "button"><li><a href="#">ABOUT</a></li></div>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<div class= "blogbackground">
-			<div class="column">
-			<h1>Week 2: Web Dev Goals<i class="em em-sunglasses"></i></h1>
-			 
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
-	<div class="goalslist">		 
-<ul>
-	<li>Responsive header that draws users eye to latest content i.e articles, blog posts etc... </li>
-	<li>Social Media buttons that enables users to share and like my content on twitter and facebook. Gotta get that signal boost, baby!</li>
-	<li>Search bar functionality to help users find what they are looking for on my site</li>
-	<li>comments sections/forums for users to discuss content on my site </li>
+</head>
+<body>
 
-</ul>
-</div>
-<br>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class ="rowmain">
+        <div class="four columns">
+          <div class= "mainbutton"><h2>blog</h2>
+            <ul>
+              <div class="six columns">
+                <li>Blog 1</li>
+                <li>blog 2</li>
+                <li>blog 3</li>
+              </div>
+              <div class="six columns">
+                <li>blog 4</li>
+                <li><a href="t2-html-css-dom-p2.html">Tech Blog 2</a></li>
+                <li>blgo 6</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="four columns">
+          <h1 class="mainlogo"> GDS </h1>
+        </div>
+        <div class="four columns">
+          <div class= "mainbutton"><h2>about</h2>
+        </div>
+      </div>
+    </div>
+    </div>
 
-<h1>Explaining HTML, CSS and the DOM to Newbie</h1>
-<p>HTML, CSS and the DOM work together to present us with attractive and functional webpages. You could compare each of these languages to the parts of speech an author would use when writing a story. In this case HTML would be the nouns, the objects that exist inside the space you are creating. Let say we've got a table, two chairs, a woman, a man and a gun (just to add some excitement). Now we understand the objects that exist here but we have no understanding of what they look like and how they relate to one another in space. That's where CSS comes in. </p><br>
-<br>
-<p>CSS takes the objects you want on your page and gives them life. CSS is the Adjectives and verbs in our story. CSS tells us that the man is wearing a blue shirt and the woman is sitting at the table cleaning the gun. Before CSS does its job and explains the relationships between the different objects in our story we have a table stacked on top some chairs and a man stacked on that, then a woman standing on his head, and a gun on her head. It looked ridiculous. Now that we've applied the CSS and we have a much more coherent and sensible idea of what our scene looks like. 
-</p><br>
-<br>
-<p>Now that we understand the tools we have for writing our story we have to finish and publish it. This is where the DOM comes in. The DOM is like the Contents page. It might tell us that Chapter 1 is called "The man, the seated woman and gleaning gun" but we would have to turn to that page and read further to find out exactly what happens in this chapter. THe DOM summarises all the long windedness of our HTML and CSS story and enables us to navigate to the specific part of the story we would like to understand better.</p><br>
-<br>
-<h1>What is Boxifying Design?</h1>
-<p>Boxifying, is the process by which a web designer/developer breaks up the content on a page. All content on the web is displayed in boxes. Even if it's a picture of the roundest thing possible like a ball or the moon, I'm sorry, but its going to be inside of a box. When a web developer first approaches a project they take the draft design given to them by a designer and begin to imagine the boxes that will contain all of the different types of content on the page.</p><br>
-<br>
-<h1>"What is the Box Model?"</h1>
-<p>
-The box model is the name of the combined parts that make up a box of content on your page. It almost looks like a cross section of the earth's crust. In the center you have the core or the content of your box. This could be paragraph of text, a list, an image, or anything really. Then you have the outer core or the "padding". This part is made of molten rock and it forms a protective boundary between your content and the outside world! Then you have the border, which would be like crust. It's the visible outer layer of your box model. Then finally you have the margin which would be like the atmposhere. It's an invisible barrier between your box and all other boxes on your page. And now I am truly tired of this analogy.</p>
+     
+    <div class="row blog">
+      
+      <div class ="four columns">
+        <h1>Explaining HTML, CSS and the DOM to Newbie</h1>
+      </div>
+      <div class ="six columns">
+        <img src="../images/heat.jpeg">
+        <h5>Web Dev Wish List</h5>
+        <div class="goalslist">    
+          <ul>
+            <li>Responsive header that draws users eye to latest content i.e articles, blog posts etc... </li>
+            <li>Social Media buttons that enables users to share and like my content on twitter and facebook. Gotta get that signal boost, baby!</li>
+            <li>Search bar functionality to help users find what they are looking for on my site</li>
+            <li>comments sections/forums for users to discuss content on my site </li>
 
-
-
-
-
-
-</div>
-
+          </ul>
+          </div>
+          <br>
+        <p>
+          HTML, CSS and the DOM work together to present us with attractive and functional webpages. You could compare each of these languages to the parts of speech an author would use when writing a story. In this case HTML would be the nouns, the objects that exist inside the space you are creating. Let say we've got a table, two chairs, a woman, a man and a gun (just to add some excitement). Now we understand the objects that exist here but we have no understanding of what they look like and how they relate to one another in space. That's where CSS comes in. </p><br>
+          <br>
+        <p>
+          CSS takes the objects you want on your page and gives them life. CSS is the Adjectives and verbs in our story. CSS tells us that the man is wearing a blue shirt and the woman is sitting at the table cleaning the gun. Before CSS does its job and explains the relationships between the different objects in our story we have a table stacked on top some chairs and a man stacked on that, then a woman standing on his head, and a gun on her head. It looked ridiculous. Now that we've applied the CSS and we have a much more coherent and sensible idea of what our scene looks like. 
+          </p><br>
+          <br>
+        <p>
+          Now that we understand the tools we have for writing our story we have to finish and publish it. This is where the DOM comes in. The DOM is like the Contents page. It might tell us that Chapter 1 is called "The man, the seated woman and gleaning gun" but we would have to turn to that page and read further to find out exactly what happens in this chapter. THe DOM summarises all the long windedness of our HTML and CSS story and enables us to navigate to the specific part of the story we would like to understand better.</p><br>
+          <br>
+          <h1>What is Boxifying Design?</h1>
+         <p>
+          Boxifying, is the process by which a web designer/developer breaks up the content on a page. All content on the web is displayed in boxes. Even if it's a picture of the roundest thing possible like a ball or the moon, I'm sorry, but its going to be inside of a box. When a web developer first approaches a project they take the draft design given to them by a designer and begin to imagine the boxes that will contain all of the different types of content on the page.</p><br>
+          <br>
+          <h1>"What is the Box Model?"</h1>
+        <p>
+          The box model is the name of the combined parts that make up a box of content on your page. It almost looks like a cross section of the earth's crust. In the center you have the core or the content of your box. This could be paragraph of text, a list, an image, or anything really. Then you have the outer core or the "padding". This part is made of molten rock and it forms a protective boundary between your content and the outside world! Then you have the border, which would be like crust. It's the visible outer layer of your box model. Then finally you have the margin which would be like the atmposhere. It's an invisible barrier between your box and all other boxes on your page. And now I am truly tired of this analogy.
         </p>
-			
+          </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="row social">
+      <div class="three columns"><h1>SOCIAL MEDIA</h1></div>
+      <div class ="three columns"><img src="../images/twiticon.png"></div>
+      <div class ="three columns mid"><img src="../images/faceicon.png"></div>
+      <div class ="three columns"><img src="../images/instaicon.png"></div>
+    </div>
+
+
+        
           
 
 
-			
-			
-			
+      </blockquote>
+    </div>
 
-			
+  </div>
 
-			</div>
-
-		
-		
-
-		
-		
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-<footer>Another George Armstrong Original</footer>
-
-
-
 </html>
-
-
