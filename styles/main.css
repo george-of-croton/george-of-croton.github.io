@@ -41,6 +41,8 @@
 
 	margin-left: 22%;
 }
+
+}
 @media (max-width: 500px) {
 	.four.columns.mid img {
 		display: block;
@@ -54,7 +56,10 @@
 	}
 	.row.images {
 		display: none;
-
+	}
+	.row.blog img {
+		width: 50%;
+		height: 50%;
 	}
 
 }
@@ -80,6 +85,12 @@ header {
 	padding: 0;
 }
 
+.row img {
+	border-bottom: none;
+}
+.row {
+	border-bottom: none;
+}
 
 .row.images {
 	border-bottom: none;
@@ -90,15 +101,18 @@ header {
 .row.images.mood img {
 	width: 400px;
 }
-.row.social {
-	border-top: solid #F685A7;
+.row.social img{
+	width: 30px;
+	margin-left: 66%;
+	
 }
-.row.social img {
-	margin-top: 10%;
+.row.social{
+
 }
 .row.blog {
 	margin-bottom: 18%;
 	border-bottom: solid #F05E8A;
+	border-bottom-width: 10%;
 }
 .row.blog h1 {
 	margin-left: 25%;
@@ -121,4 +135,11 @@ header {
 }
 .goalslist ul {
 	list-style: square;
+}
+.tbimg img {
+	float: left;
+	display: wrap;
+	flex wrap: wrap;
+
+
 }
